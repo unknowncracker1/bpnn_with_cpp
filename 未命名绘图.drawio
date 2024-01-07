@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T11:50:46.287Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63090719) XWEB/8391 Flue" version="22.1.17" etag="mAxd1bzTYlm3CDTlFgGN" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T12:04:13.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63090719) XWEB/8391 Flue" etag="XBw5D3CYb8DxJirQxaGV" version="22.1.17" type="github">
   <diagram name="第 1 页" id="dEvdPaWnvj8Fc_jNkaq0">
-    <mxGraphModel>
+    <mxGraphModel dx="1460" dy="997" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="j_lHhkaTPG2_fFPb2vfu-2" value="数据预处理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="-13" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_lHhkaTPG2_fFPb2vfu-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="j_lHhkaTPG2_fFPb2vfu-3" target="j_lHhkaTPG2_fFPb2vfu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_lHhkaTPG2_fFPb2vfu-3" value="构建模型（卷积层池化层等）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="97" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_lHhkaTPG2_fFPb2vfu-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="j_lHhkaTPG2_fFPb2vfu-4" target="j_lHhkaTPG2_fFPb2vfu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_lHhkaTPG2_fFPb2vfu-4" value="选择优化器、损失函数等参数" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="190" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="j_lHhkaTPG2_fFPb2vfu-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="j_lHhkaTPG2_fFPb2vfu-5" target="j_lHhkaTPG2_fFPb2vfu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_lHhkaTPG2_fFPb2vfu-5" value="训练模型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="277" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_lHhkaTPG2_fFPb2vfu-6" value="检验效果" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="364" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_lHhkaTPG2_fFPb2vfu-11" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j_lHhkaTPG2_fFPb2vfu-2" target="j_lHhkaTPG2_fFPb2vfu-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-415" y="215" as="sourcePoint" />
+            <mxPoint x="-365" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j_lHhkaTPG2_fFPb2vfu-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="j_lHhkaTPG2_fFPb2vfu-5" target="j_lHhkaTPG2_fFPb2vfu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_lHhkaTPG2_fFPb2vfu-20" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="j_lHhkaTPG2_fFPb2vfu-6" target="j_lHhkaTPG2_fFPb2vfu-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-456" y="406" as="sourcePoint" />
+            <mxPoint x="-456" y="139" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-545" y="267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
